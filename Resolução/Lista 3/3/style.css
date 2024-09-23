@@ -1,0 +1,44 @@
+body {
+	display: flex;
+	justify-content: center;
+}
+
+#cont{
+	width: 500px;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+}
+
+#cont:hover #quadrado{
+	transform: rotateY(180deg);
+}
+
+#quadrado {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	justify-content: center;
+	align-items: center;
+	transition: 2s;
+	text-align: center;
+}
+
+#verde {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	background-color: green;
+}
+#vermelho {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	background-color: red;
+	transform: rotateY(180deg);
+}

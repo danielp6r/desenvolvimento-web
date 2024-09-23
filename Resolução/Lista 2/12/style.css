@@ -1,0 +1,89 @@
+.box{
+	width: 400px;
+	height: 400px;
+	margin: 20px auto;
+}
+.circulo{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: #c70006;
+}
+.quadrado{
+    width: 100px;
+    height: 100px;
+    background: #12af3c;
+    border-radius: 14px;
+    position: relative;
+    bottom: -10px;
+}
+.quadrado2{
+    width: 100px;
+    height: 100px;
+    background: #12af3c;
+    border-radius: 14px;
+    position: relative;
+    bottom: -20px;
+}
+.quadrado3{
+    width: 100px;
+    height: 100px;
+    background: #12af3c;
+    border-radius: 14px;
+    position: relative;
+    bottom: -30px;
+}
+.quadrado4{
+    width: 100px;
+    height: 100px;
+    background: #12af3c;
+    border-radius: 14px;
+    position: relative;
+    bottom: 400px;
+    left: 110px;
+}
+.quadrado5{
+    width: 100px;
+    height: 100px;
+    background: #12af3c;
+    border-radius: 14px;
+    position: relative;
+    bottom: 390px;
+    left: 110px;
+}
+.quadrado6{
+    width: 100px;
+    height: 100px;
+    background: #12af3c;
+    border-radius: 14px;
+    position: relative;
+    bottom: 380px;
+    left: 110px;
+}
+.quadrado7{
+    width: 100px;
+    height: 100px;
+    background: #12af3c;
+    border-radius: 14px;
+    position: relative;
+    bottom: 370px;
+    left: 110px;
+}
+.quadrado8{
+    width: 100px;
+    height: 100px;
+    background: #12af3c;
+    border-radius: 14px;
+    position: relative;
+    bottom: 800px;
+    left: 220px;
+}
+.quadrado9{
+    width: 100px;
+    height: 100px;
+    background: #12af3c;
+    border-radius: 14px;
+    position: relative;
+    bottom: 680px;
+    left: 220px;
+}

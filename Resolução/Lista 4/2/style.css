@@ -1,0 +1,16 @@
+p {
+    font-weight: bold;
+    font-family: serif;
+    text-align: center;
+    padding-top: 22%;
+    transform: scale(1.5, 2);
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: #eeff00;
+    transform: scale(-1, -1) rotate(45deg);
+    margin: 20px;
+}

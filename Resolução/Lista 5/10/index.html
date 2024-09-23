@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Lista5Ex10</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id="resultado">
+			<script>
+				var n = prompt("Digite a quantidade de nomes (n).");
+				var lista = [];
+				for (var i = 0; i < n; i++){
+					lista.push(prompt("Digite um nome. "));
+				}
+				lista.sort().reverse();
+				console.log(lista)
+				document.writeln(lista)
+			</script>
+		</div>
+	</body>
+</html>

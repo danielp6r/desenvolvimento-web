@@ -1,0 +1,13 @@
+ img {
+  width: 150px;
+}
+
+img:hover {
+    animation: anm 2s ;
+}
+
+@keyframes anm{
+    from {width: 150px;}
+
+    to {width: 300px;}
+}

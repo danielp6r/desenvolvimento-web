@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+}
+
+div {
+	width: 30px;
+	height: 30px;
+	background-color: black;
+	color: white;
+}
+
+.divA {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+
+.divB {
+	position: absolute;
+	top: 0%;
+	right: 0%;
+}
+
+.divC {
+	position: absolute;
+	bottom: 0%;
+	left: 0%;
+}
+
+.divD {
+	position: absolute;
+	bottom: 0%;
+	right: 0%;
+}
+
+.divE {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -15px;
+	margin-left: -15px;
+}

@@ -1,0 +1,29 @@
+body {
+  padding: 25px;
+  background-color: white;
+  color: blue;
+  font-size: 25px;
+}
+
+header {
+  text-align: center;
+  display: inline-block;
+  width: 200px;
+}
+
+.ac {
+  background-color: black;
+  color: white;
+}
+
+#c1{
+  color: red;
+}
+
+#c2{
+  color: green;
+}
+
+#c3{
+  color: blue;
+}

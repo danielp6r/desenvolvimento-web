@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Lista5Ex08</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id="resultado">
+		</div>
+		<script type="text/javascript">
+        function getMousePosition(div, event) {
+            let rect = div.getBoundingClientRect();
+            let x = event.clientX - rect.left;
+            let y = event.clientY - rect.top;
+            console.log("Coordenada X: " + x, 
+                        "Coordinate Y: " + y);
+        }
+      
+        let divElem = document.querySelector("div");
+          
+        divElem.addEventListener("mousedown", function(e)
+        {
+            getMousePosition(divElem, e);
+        });
+    </script>
+	</body>
+</html>
